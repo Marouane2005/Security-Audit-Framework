@@ -1,0 +1,10 @@
+﻿# Exclude generated reports (contain sensitive data)
+Reports/*.html
+Reports/
+
+# Exclude temp files
+*.log
+*.tmp
+
+# Keep the Reports folder structure
+!Reports/.gitkeep
